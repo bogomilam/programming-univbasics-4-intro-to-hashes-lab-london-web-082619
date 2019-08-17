@@ -22,8 +22,9 @@ second_new_hash = {
 end
 
 def my_hash_creator(key, value)
- my_hash_creator = Hash.new
-my_hash_creator[:key2] = 4
+ my_hash_creator = {
+  name: "Lola"
+ }
 end
 
 def read_from_hash(hash, key)
