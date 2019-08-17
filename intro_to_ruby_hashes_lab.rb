@@ -15,8 +15,7 @@ def pioneer
 end
 
 def id_generator
-{
-  :key => "10"
+{ :key => "10"
 }
 end
 
