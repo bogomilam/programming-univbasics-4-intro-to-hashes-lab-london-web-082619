@@ -15,7 +15,9 @@ def pioneer
 end
 
 def id_generator
-h[:a] = 100
+hash = {
+  :key => "10"
+}
 end
 
 def my_hash_creator(key, value)
