@@ -15,7 +15,8 @@ def pioneer
 end
 
 def id_generator
-hash = {
+grades = Hash.new(0)
+grades = {
   :key => "10"
 }
 end
