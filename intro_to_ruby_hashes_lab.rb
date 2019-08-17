@@ -22,6 +22,9 @@ second_new_hash = {
 end
 
 def my_hash_creator(key, value)
+ my_hash_creator = {
+  :created => 1
+}
  my_hash_creator = {[name]=> "Grace Hopper"}
 end
 
