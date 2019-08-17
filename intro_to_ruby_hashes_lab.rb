@@ -22,7 +22,10 @@ second_new_hash = {
 end
 
 def my_hash_creator(key, value)
- my_hash_creator = {["key"]: 1}
+ my_hash_creator = {
+   [key]: 1
+   
+ }
 end
 
 def read_from_hash(hash, key)
