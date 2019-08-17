@@ -15,7 +15,6 @@ def pioneer
 end
 
 def id_generator
-second_new_hash = Hash.new
 second_new_hash = {
   :id => 1
 }
