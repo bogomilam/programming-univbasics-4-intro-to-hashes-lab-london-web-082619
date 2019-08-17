@@ -16,6 +16,9 @@ end
 
 def id_generator
 second_new_hash = Hash.new
+second_new_hash = {
+  :key => "1"
+}
 end
 
 def my_hash_creator(key, value)
